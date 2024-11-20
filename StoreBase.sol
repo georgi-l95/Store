@@ -12,6 +12,9 @@ contract StoreBase is Ownable, ProductCheck, Validation{
         uint16 quantity;
     }
 
+    constructor() Ownable(msg.sender) {
+    }
+
     uint8 refundPolicyNumber = 100;
 
     Product[] public products;
