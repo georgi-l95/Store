@@ -1,5 +1,8 @@
 # Store contract
 
+**Prerequisites**:
+- Please ensure you are using **OpenZeppelin Contracts version 5.x or newer**. 
+
 Functionality:
 
 - The administrator (owner) of the store should be able to add new products and the quantity of them.
